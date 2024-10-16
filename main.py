@@ -14,12 +14,12 @@ import threading
 import time
 import talib
 import telegram
-#### real net api key  F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU
-#### real net secret key 1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr
-#### telegram key 1754886045:AAEBQKHUpzSq3YWptBV_27V_Bw-X8kd7pBE
+#### real net api key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#### real net secret key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#### telegram key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 #텔레그램 봇 셋팅
-tel_token='1754886045:AAEBQKHUpzSq3YWptBV_27V_Bw-X8kd7pBE'
+tel_token='xxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxx'
 bot=telegram.Bot(token=tel_token)
 chat_id=1063955377
 
@@ -29,8 +29,8 @@ symbols=[]
 binance = ccxt.binance({
                 "options": {"defaultType": "future"},
                 "timeout": 30000,
-                "apiKey": "F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU",
-                "secret": "1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr",
+                "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 "enableRateLimit": True,
 
             })
@@ -53,8 +53,8 @@ def loss_trailing():
             binance = ccxt.binance({
                 "options": {"defaultType": "future"},
                 "timeout": 30000,
-                "apiKey": "F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU",
-                "secret": "1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr",
+                "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 "enableRateLimit": True,
 
             })
@@ -126,8 +126,8 @@ def loss_trailing():
             binance = ccxt.binance({
                 "options": {"defaultType": "future"},
                 "timeout": 30000,
-                "apiKey": "F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU",
-                "secret": "1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr",
+                "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 "enableRateLimit": True,
 
             })
@@ -145,8 +145,8 @@ def AUTO_trading():
             binance = ccxt.binance({
                 "options": {"defaultType": "future"},
                 "timeout": 30000,
-                "apiKey": "F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU",
-                "secret": "1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr",
+                "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 "enableRateLimit": True,
 
             })
@@ -186,8 +186,8 @@ def AUTO_trading():
             binance = ccxt.binance({
                 "options": {"defaultType": "future"},
                 "timeout": 30000,
-                "apiKey": "F8ggtteO478dbKzLn0Ahr9ruyA4IFuYO2NsPe3eEpdP6W2RPf9uALWl6rwBcHZYU",
-                "secret": "1x963w68KlXdDzlIzTW7jig591nqcQeb6SNvroHX1wP6GQZXGNfgIsFbTPdGcDLr",
+                "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 "enableRateLimit": True,
 
             })
